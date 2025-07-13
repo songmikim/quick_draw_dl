@@ -1,5 +1,3 @@
-
-````markdown
 # quick_draw_dl
 
 Quick, Draw! 데이터셋 기반 분류 모델 학습 & 추론 모듈입니다.  
@@ -108,7 +106,5 @@ python train.py --data-dir ./data/ --model-out ./best-model.keras
 
 # 추론
 python predict.py --model-path ./best-model.keras --labels ./category.npy --image ./sample.jpg
-```
 
-```
 ```
